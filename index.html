@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciador de Senhas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerenciador de Senhas</h1>
+
+    <div class="form-container">
+        <h2>Adicionar Nova Senha</h2>
+        <form id="passwordForm">
+            <div class="form-group">
+                <label for="service">Serviço/Aplicação:</label>
+                <input type="text" id="service" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Usuário/E-mail:</label>
+                <input type="text" id="username" requirede>
+            </div>
+            <div class="form-group">
+                <label for="paswword">Senha:</label>
+                <input type="password" id="password" required>
+                <button type="button" id="GeneratePassword">Gerar</button>
+                <button type="button" id="showPassword">Mostrar</button>
+            </div>
+            <div class="form-group">
+                <label for="notes">Observções:</label>
+                <textarea id="notes"></textarea>
+            </div>
+            <button type="submit">Salvar</button>
+        </form>
+    </div>
+
+    <div class="search-container">
+        <h2>Suas Senhas Salvas</h2>
+        <input type="text" id="searchInput" placeholder="Pesquisar por serviço...">
+        <div id="passwordList"></div>
+    </div>
+
+    <script src="database.js"></script>
+</body>
+</html>
