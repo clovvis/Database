@@ -1,0 +1,136 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+  color: #2c3e50;
+}
+
+.form-container,
+.search-container {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='password'],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+textarea {
+  height: 80px;
+  resize: vertical;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#generatePassword {
+  background-color: #27ae60;
+}
+
+#generatePassword:hover {
+  background-color: #219653;
+}
+
+#showPassword {
+  background-color: #f39c12;
+}
+
+#showPassword:hover {
+  background-color: #e67e22;
+}
+
+.password-item {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.password-item h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.password-item p {
+  margin: 5px 0;
+}
+
+.password-actions {
+  margin-top: 10px;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+.copy-btn {
+  background-color: #9b59b6;
+}
+
+.copy-btn:hover {
+  background-color: #8e44ad;
+}
+
+.hidden-password {
+  letter-spacing: 2px;
+  font-family: monospace;
+}
+
+#searchInput {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
